@@ -1,0 +1,274 @@
+/*General*/
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.button-1 {
+  height: 35px;
+  background-color: gold;
+  border: 0;
+  padding: 0px 20px;
+  color: white;
+  font-size: 18px;
+}
+
+/*headrr*/
+header {
+  background-color: green;
+  color: white;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: gold 4px solid;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li {
+  display: inline;
+  padding: 0px 20px;
+}
+
+header #brand {
+  float: left;
+}
+
+header #brand h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 11px;
+}
+
+header .highlight {
+  color: gold;
+}
+
+header .current a {
+  color: gold;
+  font-weight: bolder;
+}
+
+header a:hover {
+  color: goldenrod;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.button-1:hover {
+  cursor: pointer;
+  color: green;
+}
+
+/*showcase*/
+
+#showcase {
+  min-height: 400px;
+  background-image: url("../image/kel-avelino-yLW1yzCK2HY-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+}
+
+#showcase h2 {
+  padding-top: 60px;
+  font-size: 45px;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 2;
+}
+
+#showcase p {
+  font-size: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+#showcase .container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+/* email */
+
+#email {
+  padding: 15px;
+  color: white;
+  background: green;
+}
+
+#email h2 {
+  float: left;
+}
+
+#email form {
+  float: right;
+  margin-top: 15px;
+}
+
+#email input[type="email"] {
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+  margin-bottom: 15px;
+}
+
+/* boxes */
+#boxes p .mess {
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+#boxes {
+  margin-top: 20px;
+}
+
+#boxes .box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+#boxes .box img {
+  width: 90px;
+}
+
+#email form:hover {
+  color: blue;
+}
+
+/* viewers */
+#viewers {
+  background-color: green;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#viewers .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#viewers img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+#viewers .customer {
+  width: 30%;
+  text-align: center;
+  color: #f4f4f4;
+  border: 4px solid gold;
+  border-radius: 10px;
+}
+
+#viewers h3,
+#viewers img {
+  margin: 0;
+}
+
+#viewers .title {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  margin: 0 0 10 0;
+  padding: 0 0 10px 0;
+}
+
+footer {
+  background-color: gold;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.dark {
+  padding: 15px;
+  background-color: gold;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+aside#sidebar {
+  float: right;
+  margin-top: 10px;
+  width: 30%;
+}
+
+article#main-col {
+  float: left;
+  width: 65%;
+}
+
+aside#sidebar input .interract,
+aside#sidebar textarea {
+  width: 90%;
+  padding: 5px;
+  padding: 20px;
+
+}
+
+.button-2 {
+  height: 35px;
+  background-color: green;
+  border: 0;
+  padding: 0px 20px;
+  color: white;
+  font-size: 18px;
+}
+
+ul#services li {
+  list-style: none;
+  background-color: lightskyblue;
+  margin-bottom: 5px;
+  border: 1px solid #cccccc;
+  padding: 20px;
+}  
+}
+
+div s.change {
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+  margin-bottom: 15px;
+}
+ {
+}
+ {
+}
